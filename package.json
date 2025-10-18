@@ -1,0 +1,37 @@
+{
+  "name": "vectorx402-sdk",
+  "version": "0.1.0",
+  "description": "TypeScript SDK for VectorX402 - Decentralized marketplace for AI agent vector embeddings",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "test": "jest",
+    "lint": "eslint src/**/*.ts",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "vector",
+    "embedding",
+    "ai",
+    "x402",
+    "micropayment",
+    "ipfs",
+    "marketplace"
+  ],
+  "author": "VectorX402 Team",
+  "license": "MIT",
+  "dependencies": {
+    "ethers": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.0.0",
+    "typescript": "^5.3.0",
+    "jest": "^29.7.0",
+    "@types/jest": "^29.5.0",
+    "ts-jest": "^29.1.0",
+    "eslint": "^8.50.0",
+    "@typescript-eslint/eslint-plugin": "^6.7.0",
+    "@typescript-eslint/parser": "^6.7.0"
+  }
+}
